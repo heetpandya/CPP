@@ -1,0 +1,17 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	int a,b,c,d,e,f;
+	clrscr();
+	cout<<"enter two number";
+	cin>>a>>b;
+	c=a+b;
+	d=a-b;
+	e=a*b;
+	f=a%b;
+	cout<<endl<<a<<"+"<<b<<"="<<c;
+	cout<<endl<<a<<"-"<<b<<"="<<d;
+	cout<<endl<<a<<"*"<<b<<"="<<e;
+	cout<<endl<<a<<"%"<<b<<"="<<f;
+}
