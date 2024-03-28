@@ -1,14 +1,11 @@
 #include<iostream>
 using namespace std;
-const float pie=22/7;
-inline float area(float r)
+int sum(int a,int b)
 {
-return (pie*r*r);
+    return a+b;
 }
 int main()
 {
-float radius;
-cout<<"Enter radius:";
-cin>>radius;
-cout<<"Area="<<area(radius)<<endl;
+ cout<<"addition : "<<sum(60,9);
+ return 0;
 }
